@@ -40,7 +40,7 @@ def reset_position():
     drone.clear()  
 
 screen.listen()
-screen.onkeypress(move_forward, "w")
+screen.onkeypress(move_forward, "W".lower())
 screen.onkeypress(move_backward, "s")
 screen.onkeypress(reset_position, "r")  
 screen.onkeypress(rotate_left, "a")  

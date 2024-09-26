@@ -41,7 +41,7 @@ def reset_position():
 
 screen.listen()
 screen.onkeypress(move_forward, "W".lower())
-screen.onkeypress(move_backward, "S".lower())
+screen.onkeypress(move_backward, "s")
 screen.onkeypress(reset_position, "r")  
 screen.onkeypress(rotate_left, "a")  
 screen.onkeypress(rotate_right, "d") 
